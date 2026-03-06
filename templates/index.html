@@ -1,0 +1,7 @@
+{% for pieza in piezas %}
+  <div>
+      <h3>{{ pieza[1] }}</h3>
+      <p>{{ pieza[2] }}</p>
+      <img src="{{ url_for('static', filename=pieza[3].replace('static/', '')) }}" width="200">
+  </div>
+{% endfor %}

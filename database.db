@@ -1,0 +1,6 @@
+SQLite 
+format 
+            nombre TEXT NOT NULL,
+            descripcion TEXT,
+            imagen TEXT NOT NULL
+        )
